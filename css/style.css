@@ -141,13 +141,16 @@ margin-left: 40px;
     background: var(--background-color);
     padding-top: 190px;
     padding-bottom: 190px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/hero/title-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wrapper-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}    
 
 .hero-title {
 font-weight: 700;
@@ -210,6 +213,20 @@ margin-left: 24px;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.feauter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+    height: 110px;
+    background-color: #F4F4FD;
+    margin-bottom: 10px;
+}
+.feauter-icon {
+    width: 65px;
+    height: 65px;
 }
 
 .feauter-item {
@@ -310,6 +327,103 @@ margin-left: 24px;
     text-align: center;
 }
  
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--btn-color);
+    width: 100%;
+    height: 100%;
+    fill: white
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    fill: #f9d14d;
+}
+.icon-link {
+    width: 20px;
+    height: 20px;
+}
+
+
+.customers {
+    padding: 125px 0;
+}
+.customers-container {
+}
+.costomers-item {
+  
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--primary-title-color);
+margin-bottom: 70px;
+}
+.costomers-logo {
+    display: inline-flex;
+
+}
+
+.costomers-logo .logo-list + .logo-list {
+margin-left: 24px;
+
+}
+.logo-list {
+    border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 170px;
+height: 90px;
+cursor: pointer;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo-list:hover,
+.logo-list:focus {
+    border-color: var(--accent-color);
+}
+
+.logo-link {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-link:hover svg,
+.logo-link:focus svg {
+    fill: var(--accent-color);
+}
+.icon-logo {
+    width: 105px;
+    height: 55px;
+    fill: #AFB1B8;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+    fill: var();
+}
 /* Footer */
 
 .footer {
